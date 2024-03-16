@@ -1,0 +1,43 @@
+/* user.css */
+
+.user-profile-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #2b2b2b; /* Dark gray background */
+    color: #fff; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #ff4d4d; /* Red accent color */
+  }
+  
+  .user-profile-container h1 {
+    font-size: 36px;
+    color: #ff4d4d; /* Red accent color */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-container p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .user-profile-container b {
+    font-weight: bold;
+  }
+  
+  .user-profile-container .name,
+  .user-profile-container .email {
+    color: #ff4d4d; /* Red accent color */
+  }
+  
+  .user-profile-container p.loading {
+    text-align: center;
+    font-style: italic;
+  }
+  

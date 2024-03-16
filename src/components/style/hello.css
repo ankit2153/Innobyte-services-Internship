@@ -1,0 +1,50 @@
+/* styles.css */
+
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.block {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  background-color: #4caf50; /* Green */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #388e3c; /* Darker Green */
+}
+
+.block h2 {
+  margin: 0;
+}
+
+.block:nth-child(odd) {
+  background-color: #2196f3; /* Blue */
+}
+
+.block:nth-child(odd):hover {
+  background-color: #1976d2; /* Darker Blue */
+}
+
+.block:nth-child(even) {
+  background-color: #ff9800; /* Orange */
+}
+
+.block:nth-child(even):hover {
+  background-color: #f57c00; /* Darker Orange */
+}
