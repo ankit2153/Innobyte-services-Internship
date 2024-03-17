@@ -30,8 +30,8 @@ const Login = () => {
     };
 
     emailjs
-      .send(process.env.SERVICE, process.env.TEMPLATE, params, {
-        publicKey: process.env.PUBLIC_KEY,
+      .send(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, params, {
+        publicKey: process.env.REACT_APP_PUBLIC_KEY,
       })
       .then(
         (response) => {
